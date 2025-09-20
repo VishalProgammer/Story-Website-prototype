@@ -190,3 +190,27 @@
     margin-top: 20px;
     width: 100%;
   }
+
+  @media (max-width: 600px){
+    #bg{
+      height: 50vh;
+      width: 100%;
+  }
+  
+  .P1{
+      background: url("./farm1.png") center no-repeat;
+      background-size: 70% 100%;
+  }
+
+  .P2{
+    background: url("./farm2.png") center no-repeat;
+    background-size: 70% 100%;
+    margin-top: 5%;
+}
+
+.P3{
+  background: url("./lab1.png") center no-repeat;
+  background-size: 70% 100%;
+  margin-top: 5%;
+}
+  }
