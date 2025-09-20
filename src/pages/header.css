@@ -1,0 +1,38 @@
+ /* .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+} */
+.title{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: xx-large;
+    height: 5vh;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.BtnBar{
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+.BtnBar button{
+    width: 15%;
+    background-color: black;
+    border: none;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+.BtnBar button:hover{
+    background: rgba(105, 105, 105, 0.449);
+    cursor: pointer;
+}

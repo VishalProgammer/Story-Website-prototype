@@ -1,0 +1,192 @@
+#bg{
+    height: 100vh;
+    width: 100%;
+}
+
+.P1{
+    background: url("./farm1.png") center no-repeat;
+    background-size: 100% 100%;
+}
+
+.Chr{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 10%;
+    align-items: center;
+}
+.Chr img{
+    width: 30%;
+    height: auto;
+}
+
+.dialog {
+    background: #ffffffae;
+    color: #000;
+    border: 4px solid #000;
+    margin-bottom: 100px;
+    padding: 8px 12px;
+    text-shadow: #000 4px;
+    font-family: cursive;     /* pixel vibe */
+    font-size: large;
+    position: relative;
+    image-rendering: pixelated; /* keeps edges crisp */
+  }
+  
+  /* Tail */
+  .dialog::after {
+    content: "";
+    position: absolute;
+    right: 20px;   /* adjust horizontally */
+    bottom: -24px; /* below the box */
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 24px solid #000000; /* border outline */
+  }
+  
+  .dialog::before {
+    content: "";
+    position: absolute;
+    right: 22px;
+    bottom: -16px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 16px solid #fff; /* fill matches background */
+  }
+  .dialog audio{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  /* P2 */
+
+  .P2{
+    background: url("./farm2.png") center no-repeat;
+    background-size: 100% 100%;
+    margin-top: 5%;
+}
+  .Chr2{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-top: 10%;
+    align-items: center;
+}
+.Chr2 img{
+    width: 30%;
+    height: auto;
+}
+
+
+
+
+  .dialog2 {
+    background: #ffffffae;
+    color: #000;
+    border: 4px solid #000;
+    margin-bottom: 100px;
+    padding: 8px 12px;
+    text-shadow: #000 4px;
+    font-family: cursive;     /* pixel vibe */
+    font-size: large;
+    position: relative;
+    image-rendering: pixelated; /* keeps edges crisp */
+  }
+  
+  /* Tail */
+  .dialog2::after {
+    content: "";
+    position: absolute;
+    left: 20px;   /* adjust horizontally */
+    bottom: -24px; /* below the box */
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 24px solid #000000; /* border outline */
+  }
+  
+  .dialog2::before {
+    content: "";
+    position: absolute;
+    left: 22px;
+    bottom: -16px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 16px solid #fff; /* fill matches background */
+  }
+  .dialog2 audio{
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+
+  /* P2 */
+
+  .P3{
+    background: url("./lab1.png") center no-repeat;
+    background-size: 100% 100%;
+    margin-top: 5%;
+}
+  .Chr3{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-top: 10%;
+    align-items: center;
+}
+.Chr3 img{
+    width: 30%;
+    height: auto;
+}
+
+
+
+
+  .dialog3 {
+    background: #ffffffae;
+    color: #000;
+    border: 4px solid #000;
+    margin-bottom: 100px;
+    padding: 8px 12px;
+    text-shadow: #000 4px;
+    font-family: cursive;     /* pixel vibe */
+    font-size: large;
+    position: relative;
+    image-rendering: pixelated; /* keeps edges crisp */
+  }
+  
+  /* Tail */
+  .dialog3::after {
+    content: "";
+    position: absolute;
+    left: 20px;   /* adjust horizontally */
+    bottom: -24px; /* below the box */
+    width: 0;
+    height: 0;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    border-top: 24px solid #000000; /* border outline */
+  }
+  
+  .dialog3::before {
+    content: "";
+    position: absolute;
+    left: 22px;
+    bottom: -16px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 16px solid #fff; /* fill matches background */
+  }
+  .dialog3 audio{
+    margin-top: 20px;
+    width: 100%;
+  }
