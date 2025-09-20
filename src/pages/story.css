@@ -199,18 +199,21 @@
   
   .P1{
       background: url("./farm1.png") center no-repeat;
-      background-size: 100% 70%;
+      background-size: 100% 100%;
   }
 
   .P2{
     background: url("./farm2.png") center no-repeat;
-    background-size: 100% 70%;
+    background-size: 100% 100%;
     margin-top: 5%;
 }
 
 .P3{
   background: url("./lab1.png") center no-repeat;
-  background-size: 100% 70%;
+  background-size: 100% 100%;
   margin-top: 5%;
+}
+.dialog, .dialog1, .dialog3{
+  font-size: medium;
 }
   }
