@@ -191,7 +191,7 @@
     width: 100%;
   }
 
-  @media (max-width: 100px){
+  @media (max-width: 1000px){
     #bg{
       height: 50vh;
       width: 100%;
